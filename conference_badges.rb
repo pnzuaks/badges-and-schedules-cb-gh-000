@@ -20,6 +20,6 @@ end
 
 def printer(attendees)
    result_ray = batch_badge_creator(attendees)
-   puts result_ray.split()
+    result_ray.split()
    puts assign_rooms(result_ray)
 end
