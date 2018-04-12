@@ -20,6 +20,12 @@ end
 
 def printer(attendees)
    result_ray = batch_badge_creator(attendees)
-    result_ray.split("")
-   puts assign_rooms(result_ray)
+    result_ray.each do |label|
+      puts label
+  end
+    ray = assign_rooms(result_ray)
+    ray.each do |label|
+      puts label
+  end
+    
 end
