@@ -18,7 +18,8 @@ end
 return ray
 end
 
-def printer
-  puts batch_badge_creator()
-  puts assign_rooms()
+def printer(attendees)
+   result_ray = batch_badge_creator(attendees)
+   puts result_ray
+   puts assign_rooms(result_ray)
 end
