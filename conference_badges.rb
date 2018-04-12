@@ -23,7 +23,7 @@ def printer(attendees)
     result_ray.each do |label|
       puts label
   end
-    ray = assign_rooms(result_ray)
+    ray = assign_rooms(attendees)
     ray.each do |label|
       puts label
   end
